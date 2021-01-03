@@ -9,7 +9,7 @@ inputfile = "cade-scroggins-fOYFbyzm_cs-unsplash.jpg"  # filename of input image
 outputfile = "out.mp4"  # filename of output video. supports any filetype ffmpeg does (gif too!)
 length = 5  # seconds
 fps = 15  # frames per second
-randomchance = 0.05  # % chance to corrupt byte (0-100)
+randomchance = 0.001  # % chance to corrupt byte (0-100) Set lower for bigger images and higher for smaller images.
 firstframeuc = True  # if true, the first frame is a carbon copy of the input image. good for discord pfps
 size = -1  # if not -1, this caps the width/height of the input image
 
