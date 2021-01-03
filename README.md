@@ -1,5 +1,6 @@
 # jpegcorruption
 Generates moving glitchart by repeatedly corrupting JPEG images.
+![demo.jpg](demo.jpg?raw=true "Title")
 ## to use
 ### requirements
 only required package is [Pillow/PIL](https://pypi.org/project/Pillow/). Script was written and tested in python 3.8.
